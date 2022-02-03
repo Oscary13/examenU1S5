@@ -80,17 +80,17 @@
                     <form method="post" action="#">
                         <div class="fields">
                             <div class="field half">
-                                <input type="text" name="name" id="name" placeholder="Name" />
+                                <input type="text" name="name" id="name" placeholder="Nombre" />
                             </div>
                             <div class="field half">
-                                <input type="email" name="email" id="email" placeholder="Email" />
+                                <input type="email" name="email" id="email" placeholder="Correo electrónico" />
                             </div>
                             <div class="field">
-                                <textarea name="message" id="message" placeholder="Message"></textarea>
+                                <textarea name="message" id="message" placeholder="Mensaje"></textarea>
                             </div>
                         </div>
                         <ul class="actions">
-                            <li><input type="submit" value="Send" class="primary" /></li>
+                            <li><input type="submit" value="Enviar" class="primary" /></li>
                         </ul>
                     </form>
                 </section>
