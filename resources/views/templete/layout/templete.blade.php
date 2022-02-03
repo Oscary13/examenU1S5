@@ -76,7 +76,7 @@
         <footer id="footer">
             <div class="inner">
                 <section>
-                    <h2>Get in touch</h2>
+                    <h2>Ponerse en contacto</h2>
                     <form method="post" action="#">
                         <div class="fields">
                             <div class="field half">
