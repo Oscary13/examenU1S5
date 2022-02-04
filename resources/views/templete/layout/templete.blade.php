@@ -26,7 +26,7 @@
 
                 <!-- Logo -->
                 <a href="{{ route('inicio') }}" class="logo">
-                    <span class="symbol"><img src="images/logo.svg" alt="" /></span><span
+                    <span class="symbol"><img src="images/logo.png" alt="" /></span><span
                         class="title">Blog DRO</span>
                 </a>
 
