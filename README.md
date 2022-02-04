@@ -8,7 +8,7 @@
 <br>
 <h1>Profesor: TORRES SERVIN EMMANUEL</h1>
 <br> <br>
-<h1>Integrantes de el equipo - Matricula: <br>
+<h1>Integrantes de el equipo - Matricula: <br><br>
 LANDIN JARQUIN VICTORIA DANIELA - 1320114064 <br>
 HERNÁNDEZ HERNÁNDEZ RAUL - 1320114029 <br>
 OSCARY BASURTO BASURTO - 1320114020 <br>
