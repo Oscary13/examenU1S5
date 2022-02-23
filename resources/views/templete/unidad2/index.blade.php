@@ -48,13 +48,15 @@
                 <li><a href="{{ route('csi') }}">Conceptos - Sistemas de Información.</a></li>
                 <li><a href="{{ route('esi') }}">Evolución de los sistemas de información.</a></li>
                 <li><a href="{{ route('ccs') }}">Conceptos de Cliente y Servidor.</a></li>
-				<li><a href="{{ route('sccd') }}">Sistemas de computadoras centrales y dedicadas.</a></li>
+                <li><a href="{{ route('sccd') }}">Sistemas de computadoras centrales y dedicadas.</a></li>
                 <li><a href="{{ route('scltr') }}">Sistemas de conexión libre y a través de redes.</a></li>
                 <li><a href="{{ route('sacs') }}">Sistemas con arquitectura Cliente/Servidor.</a></li>
                 <li><a href="{{ route('pcr') }}">Protocolos de comunicación en red.</a></li>
-				<li><a href="{{route('csira')}}">Clasificación de los sistemas de información respecto a su arquitectura.</a></li>
-                <li><a href="{{route('pdcacs')}}">Proceso de diagramación de componentes de la arquitectura cliente servidor.</a></li>
-				<li><a href="#footer">Contactanos.</a></li>
+                <li><a href="{{ route('csira') }}">Clasificación de los sistemas de información respecto a su
+                        arquitectura.</a></li>
+                <li><a href="{{ route('pdcacs') }}">Proceso de diagramación de componentes de la arquitectura cliente
+                        servidor.</a></li>
+                <li><a href="#footer">Contactanos.</a></li>
             </ul>
         </nav>
 
@@ -62,58 +64,19 @@
         <div id="main">
             <div class="inner">
                 <header>
-                    <h1>Fundamentos de la arquitectura<br />
-                        Cliente/Servidor.</h1>
-                    <p>Introducción a la arquitectura Cliente/Servidor.</p>
+                    <h1>Cliente/Servidor<br />
+                        UNIDAD 2:</h1>
+                    <p>Componentes y características del Cliente/Servidor</p>
                 </header>
                 <section class="tiles">
-                    <article class="style1">
-                        <span class="image">
-                            <img src="images/pic01.jpg" alt="" />
-                        </span>
-                        <a href="{{ route('csi') }}">
-                            <h2>Conceptos - Sistemas de Información.</h2>
-                            <div class="content">
-                                <p>Conjunto ordenado de mecanismos que tienen como fin la administración de datos y de
-                                    información.</p>
-                            </div>
-                        </a>
-                    </article>
-                    <article class="style2">
-                        <span class="image">
-                            <img src="images/pic02.jpg" alt="" />
-                        </span>
-                        <a href="{{ route('esi') }}">
-                            <h2>Evolución de los sistemas de información.</h2>
-                            <div class="content">
-                                <p>La recolección y análisis de datos es tan antigua como la civilización misma. Sin
-                                    embargo, los sistemas de
-                                    información
-                                    como los conocemos en la informática tienen su origen en la década de los 50’.</p>
-                            </div>
-                        </a>
-                    </article>
-                    <article class="style3">
-                        <span class="image">
-                            <img src="images/pic03.jpg" alt="" />
-                        </span>
-                        <a href=" {{ route('ccs') }}">
-                            <h2>Conceptos de Cliente y Servidor.</h2>
-                            <div class="content">
-                                <p>El concepto de cliente servidor, o cliente-servidor, refiere por lo tanto a un modelo
-                                    de comunicación que
-                                    vincula a varios dispositivos informáticos a través de una red.</p>
-                            </div>
-                        </a>
-                    </article>
                     <article class="style4">
                         <span class="image">
                             <img src="images/pic04.jpg" alt="" />
                         </span>
-                        <a href="{{ route('sccd') }}">
-                            <h2>Sistemas de computadoras centrales y dedicadas.</h2>
+                        <a href="{{ route('tema1') }}">
+                            <h2>Reconocer los componentes del modelo Cliente/Servidor.</h2>
                             <div class="content">
-                                <p>Definición, y caracteristicas.</p>
+                                <p>Componentes.</p>
                             </div>
                         </a>
                     </article>
@@ -121,10 +84,10 @@
                         <span class="image">
                             <img src="images/pic05.jpg" alt="" />
                         </span>
-                        <a href="{{ route('scltr') }}">
-                            <h2>Sistemas de conexión libre y a través de redes.</h2>
+                        <a href="{{ route('tema2') }}">
+                            <h2>Definir el concepto de programa maestro.</h2>
                             <div class="content">
-                                <p>Conceptos de conexión libre y a través de red.</p>
+                                <p>¿Que es el programa maestro?</p>
                             </div>
                         </a>
                     </article>
@@ -132,12 +95,45 @@
                         <span class="image">
                             <img src="images/pic06.jpg" alt="" />
                         </span>
-                        <a href="{{ route('sacs') }}">
-                            <h2>Sistemas con arquitectura Cliente/Servidor.</h2>
+                        <a href="{{ route('tema3') }}">
+                            <h2>Explicar los procesos y tareas del programa maestro.</h2>
                             <div class="content">
-                                <p>Cliente-Servidor es uno de los estilos arquitectónicos distribuidos más conocidos, el
-                                    cual está compuesto por dos
-                                    componentes, el proveedor y el consumidor. </p>
+                                <p>Procesos y tareas.</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="style1">
+                        <span class="image">
+                            <img src="images/pic01.jpg" alt="" />
+                        </span>
+                        <a href="{{ route('tema4') }}">
+                            <h2>Describir los tipos de servidores.</h2>
+                            <div class="content">
+                                <p>Tipos de servidores.</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="style2">
+                        <span class="image">
+                            <img src="images/pic02.jpg" alt="" />
+                        </span>
+                        <a href="{{ route('tema5') }}">
+                            <h2>Reconocer las características de la arquitectura Cliente/Servidor.</h2>
+                            <div class="content">
+                                <p>
+                                    Servicios, recursos compartidos, protocolos asimétricos...
+                                </p>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="style3">
+                        <span class="image">
+                            <img src="images/pic03.jpg" alt="" />
+                        </span>
+                        <a href=" {{ route('tema6') }}">
+                            <h2>Identificar las ventajas y desventajas de la arquitectura Cliente/Servidor .</h2>
+                            <div class="content">
+                                <p>Ventajas y Desventajas.</p>
                             </div>
                         </a>
                     </article>
@@ -149,9 +145,10 @@
                             <h2>Protocolos de comunicación en red.</h2>
                             <div class="content">
                                 <p> Incluyen mecanismos para que los dispositivos se identifiquen y establezcan
-									conexiones entre
-									sí, así como reglas de formato que especifican cómo se forman los paquetes y los datos en los mensajes enviados y
-									recibidos</p>
+                                    conexiones entre
+                                    sí, así como reglas de formato que especifican cómo se forman los paquetes y los
+                                    datos en los mensajes enviados y
+                                    recibidos</p>
                             </div>
                         </a>
                     </article>
@@ -159,11 +156,13 @@
                         <span class="image">
                             <img src="images/pic08.jpg" alt="" />
                         </span>
-                        <a href="{{route('csira')}}">
+                        <a href="{{ route('csira') }}">
                             <h2>Clasificación de los sistemas de información respecto a su arquitectura.</h2>
                             <div class="content">
-                                <p>La arquitectura elegida condicionará la forma de trabajar, por lo que es una decisión fundamental. Merece la pena,
-									por tanto, conocer las opciones disponibles para saber cual es la más adecuada para mi situación.</p>
+                                <p>La arquitectura elegida condicionará la forma de trabajar, por lo que es una decisión
+                                    fundamental. Merece la pena,
+                                    por tanto, conocer las opciones disponibles para saber cual es la más adecuada para
+                                    mi situación.</p>
                             </div>
                         </a>
                     </article>
@@ -171,11 +170,12 @@
                         <span class="image">
                             <img src="images/pic09.jpg" alt="" />
                         </span>
-                        <a href="{{route('pdcacs')}}">
+                        <a href="{{ route('pdcacs') }}">
                             <h2>Proceso de diagramación de componentes de la arquitectura cliente servidor.</h2>
                             <div class="content">
-                                <p>Los tres niveles deben comunicarse entre sí.Abiertos, los protocolos estándar y las API expuestas simplifican esta
-									comunicación.</p>
+                                <p>Los tres niveles deben comunicarse entre sí.Abiertos, los protocolos estándar y las
+                                    API expuestas simplifican esta
+                                    comunicación.</p>
                             </div>
                         </a>
                     </article>
@@ -205,17 +205,20 @@
                         </ul>
                     </form>
                 </section>
-				<section>
+                <section>
                     <h2>Seguir</h2>
                     <ul class="icons">
-                        <li><a href="https://twitter.com/OBB13_?t=7nIQzOsfhmixthlDa6Ling&s=09" target="_BLANK"  class="icon brands style2 fa-twitter"><span
-                                    class="label">Twitter</span></a></li>
-                        <li><a href="https://www.facebook.com/oscary.basurto.9/" target="_BLANK"  class="icon brands style2 fa-facebook-f"><span
+                        <li><a href="https://twitter.com/OBB13_?t=7nIQzOsfhmixthlDa6Ling&s=09" target="_BLANK"
+                                class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/oscary.basurto.9/" target="_BLANK"
+                                class="icon brands style2 fa-facebook-f"><span
                                     class="label">Facebook</span></a></li>
-                        <li><a href="https://www.instagram.com/0bb_13/?hl=es" target="_BLANK"  class="icon brands style2 fa-instagram"><span
+                        <li><a href="https://www.instagram.com/0bb_13/?hl=es" target="_BLANK"
+                                class="icon brands style2 fa-instagram"><span
                                     class="label">Instagram</span></a></li>
-                        <li><a href="https://github.com/Oscary13" target="_BLANK"  class="icon brands style2 fa-github"><span
-                                    class="label">GitHub</span></a></li>
+                        <li><a href="https://github.com/Oscary13" target="_BLANK"
+                                class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
                     </ul>
                 </section>
                 <ul class="copyright">
