@@ -162,8 +162,7 @@
                         <a href="{{route('csira')}}">
                             <h2>Clasificación de los sistemas de información respecto a su arquitectura.</h2>
                             <div class="content">
-                                <p>La arquitectura elegida condicionará la forma de trabajar, por lo que es una decisión fundamental. Merece la pena,
-									por tanto, conocer las opciones disponibles para saber cual es la más adecuada para mi situación.</p>
+                                <p>La arquitectura elegida condicionará la forma de trabajar, por lo que es una decisión fundamental.</p>
                             </div>
                         </a>
                     </article>

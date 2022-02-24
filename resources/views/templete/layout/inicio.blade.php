@@ -64,7 +64,7 @@
         <div id="main">
             <div class="inner">
                 <header>
-                    <h1>Fundamentos de la arquitectura<br />
+                    <h1 id="t">Fundamentos de la arquitectura<br />
                         Cliente/Servidor.</h1>
                     <p>Quinto cuatrimestre:</p>
                 </header>
@@ -88,6 +88,17 @@
                             <h2>unidad 2</h2>
                             <div class="content">
                                 <p id="parrafo">Componentes y características del Cliente/Servidor.</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="style4">
+                        <span class="image">
+                            <img src="images/pic02.jpg" alt="" />
+                        </span>
+                        <a href="">
+                            <h2>unidad 3</h2>
+                            <div class="content">
+                                <p id="parrafo">Proximamente.</p>
                             </div>
                         </a>
                     </article>

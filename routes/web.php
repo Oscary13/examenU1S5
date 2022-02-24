@@ -90,3 +90,15 @@ Route::get('/tema5', function () {
 Route::get('/tema6', function () {
     return view('templete.unidad2.tema6');
 })->name('tema6');
+
+Route::get('/tema7', function () {
+    return view('templete.unidad2.tema7');
+})->name('tema7');
+
+Route::get('/tema8', function () {
+    return view('templete.unidad2.tema8');
+})->name('tema8');
+
+Route::get('/tema9', function () {
+    return view('templete.unidad2.tema9');
+})->name('tema9');

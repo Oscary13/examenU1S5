@@ -1,4 +1,4 @@
-@extends('templete.layout.templete')
+@extends('templete.layout.templete2')
 
 @section('titulo')
     <h1>Explicar los procesos y tareas del programa maestro.</h1>

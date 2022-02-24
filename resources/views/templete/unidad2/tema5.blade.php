@@ -1,4 +1,4 @@
-@extends('templete.layout.templete')
+@extends('templete.layout.templete2')
 
 @section('titulo')
     <h1>Reconocer las características de la arquitectura Cliente/Servidor.</h1>

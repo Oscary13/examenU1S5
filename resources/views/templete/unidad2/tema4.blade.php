@@ -1,4 +1,4 @@
-@extends('templete.layout.templete')
+@extends('templete.layout.templete2')
 
 @section('titulo')
     <h1>Describir los tipos de servidores.</h1>

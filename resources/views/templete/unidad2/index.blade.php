@@ -45,17 +45,15 @@
             <h2>Menu</h2>
             <ul>
                 <li><a href="{{ route('inicio') }}">Inicio</a></li>
-                <li><a href="{{ route('csi') }}">Conceptos - Sistemas de Información.</a></li>
-                <li><a href="{{ route('esi') }}">Evolución de los sistemas de información.</a></li>
-                <li><a href="{{ route('ccs') }}">Conceptos de Cliente y Servidor.</a></li>
-                <li><a href="{{ route('sccd') }}">Sistemas de computadoras centrales y dedicadas.</a></li>
-                <li><a href="{{ route('scltr') }}">Sistemas de conexión libre y a través de redes.</a></li>
-                <li><a href="{{ route('sacs') }}">Sistemas con arquitectura Cliente/Servidor.</a></li>
-                <li><a href="{{ route('pcr') }}">Protocolos de comunicación en red.</a></li>
-                <li><a href="{{ route('csira') }}">Clasificación de los sistemas de información respecto a su
-                        arquitectura.</a></li>
-                <li><a href="{{ route('pdcacs') }}">Proceso de diagramación de componentes de la arquitectura cliente
-                        servidor.</a></li>
+                <li><a href="{{ route('tema1') }}">Reconocer los componentes del modelo Cliente/Servidor.</a></li>
+                <li><a href="{{ route('tema2') }}">Definir el concepto de programa maestro.</a></li>
+                <li><a href="{{ route('tema3') }}">Explicar los procesos y tareas del programa maestro.</a></li>
+                <li><a href="{{ route('tema4') }}">Describir los tipos de servidores.</a></li>
+                <li><a href="{{ route('tema5') }}">Reconocer las características de la arquitectura Cliente/Servidor.</a></li>
+                <li><a href="{{ route('tema6') }}">Identificar las ventajas y desventajas de la arquitectura Cliente/Servidor.</a></li>
+                <li><a href="{{ route('tema7') }}">Definir el concepto de cómputo en la nube.</a></li>
+                <li><a href="{{ route('tema8') }}">Definir los conceptos de (IAAS), (PAAS), (SAAS).</a></li>
+                <li><a href="{{ route('tema9') }}">Describir la arquitectura Cliente/Servidor con los modelos de cómputo en la nube IAAS, PAAS, SAAS.</a></li>
                 <li><a href="#footer">Contactanos.</a></li>
             </ul>
         </nav>
@@ -131,7 +129,7 @@
                             <img src="images/pic03.jpg" alt="" />
                         </span>
                         <a href=" {{ route('tema6') }}">
-                            <h2>Identificar las ventajas y desventajas de la arquitectura Cliente/Servidor .</h2>
+                            <h2>Identificar las ventajas y desventajas de la arquitectura Cliente/Servidor.</h2>
                             <div class="content">
                                 <p>Ventajas y Desventajas.</p>
                             </div>
@@ -141,14 +139,12 @@
                         <span class="image">
                             <img src="images/pic07.jpg" alt="" />
                         </span>
-                        <a href="{{ route('pcr') }}">
-                            <h2>Protocolos de comunicación en red.</h2>
+                        <a href="{{ route('tema7') }}">
+                            <h2>Definir el concepto de cómputo en la nube.</h2>
                             <div class="content">
-                                <p> Incluyen mecanismos para que los dispositivos se identifiquen y establezcan
-                                    conexiones entre
-                                    sí, así como reglas de formato que especifican cómo se forman los paquetes y los
-                                    datos en los mensajes enviados y
-                                    recibidos</p>
+                                <p> 
+                                    Computo en la nube.
+                                </p>
                             </div>
                         </a>
                     </article>
@@ -156,13 +152,12 @@
                         <span class="image">
                             <img src="images/pic08.jpg" alt="" />
                         </span>
-                        <a href="{{ route('csira') }}">
-                            <h2>Clasificación de los sistemas de información respecto a su arquitectura.</h2>
+                        <a href="{{ route('tema8') }}">
+                            <h2>Definir los conceptos de (IAAS), (PAAS), (SAAS).</h2>
                             <div class="content">
-                                <p>La arquitectura elegida condicionará la forma de trabajar, por lo que es una decisión
-                                    fundamental. Merece la pena,
-                                    por tanto, conocer las opciones disponibles para saber cual es la más adecuada para
-                                    mi situación.</p>
+                                <p>
+                                    Infrastructure as a Service (IAAS), Platform as a Service (PAAS), Software as a Service (SAAS).
+                                </p>
                             </div>
                         </a>
                     </article>
@@ -170,12 +165,12 @@
                         <span class="image">
                             <img src="images/pic09.jpg" alt="" />
                         </span>
-                        <a href="{{ route('pdcacs') }}">
-                            <h2>Proceso de diagramación de componentes de la arquitectura cliente servidor.</h2>
+                        <a href="{{ route('tema9') }}">
+                            <h2>Describir la arquitectura Cliente/Servidor con los modelos de cómputo en la nube IAAS, PAAS, SAAS.</h2>
                             <div class="content">
-                                <p>Los tres niveles deben comunicarse entre sí.Abiertos, los protocolos estándar y las
-                                    API expuestas simplifican esta
-                                    comunicación.</p>
+                                <p>
+                                    IAAS, PAAS, SAAS.
+                                </p>
                             </div>
                         </a>
                     </article>

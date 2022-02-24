@@ -1,4 +1,4 @@
-@extends('templete.layout.templete')
+@extends('templete.layout.templete2')
 
 @section('titulo')
     <h1>Definir el concepto de programa maestro.</h1>
