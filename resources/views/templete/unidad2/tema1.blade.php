@@ -66,5 +66,4 @@
     <span class="image main"><img
             src="https://i.pinimg.com/736x/d8/c6/43/d8c6434d08bc8249a6fa3ec5b0f069ad.jpg"
             alt="" /></span>
-            alt="" /></span>
 @endsection
