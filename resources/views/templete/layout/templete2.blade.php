@@ -25,7 +25,7 @@
             <div class="inner">
 
                 <!-- Logo -->
-                <a href="{{ route('inicio') }}" class="logo">
+                <a href="{{ route('inicio2') }}" class="logo">
                     <span class="symbol"><img src="images/logo.png" alt="" /></span><span
                         class="title">Blog DRO</span>
                 </a>

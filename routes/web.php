@@ -18,8 +18,17 @@ Route::get('/index', function () {
 })->name('index');
 
 Route::get('/', function () {
+    return view('templete.inicio2');
+})->name('inicio2');
+
+Route::get('/inicio', function () {
     return view('templete.inicio');
 })->name('inicio');
+
+Route::get('/inicio3', function () {
+    return view('templete.inicio3');
+})->name('inicio3');
+
 
 Route::get('/generic', function () {
     return view('templete.unidad1.generic');
@@ -102,3 +111,43 @@ Route::get('/tema8', function () {
 Route::get('/tema9', function () {
     return view('templete.unidad2.tema9');
 })->name('tema9');
+
+
+
+
+Route::get('/estrategias', function () {
+    return view('templete.estrategias');
+})->name('estrategias');
+
+Route::get('/2tema1', function () {
+    return view('templete.estrategias.tema1');
+})->name('2tema1');
+
+Route::get('/2tema2', function () {
+    return view('templete.estrategias.tema2');
+})->name('2tema2');
+
+
+
+
+Route::get('/multinivel', function () {
+    return view('templete.multinivel');
+})->name('multinivel');
+
+Route::get('/3tema1', function () {
+    return view('templete.multinivel.tema1');
+})->name('3tema1');
+
+Route::get('/3tema2', function () {
+    return view('templete.multinivel.tema2');
+})->name('3tema2');
+
+Route::get('/3tema3', function () {
+    return view('templete.multinivel.tema3');
+})->name('3tema3');
+
+
+
+Route::get('/3tema5', function () {
+    return view('templete.multinivel.tema5');
+})->name('3tema5');

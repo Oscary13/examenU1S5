@@ -44,18 +44,11 @@
         <nav id="menu">
             <h2>Menu</h2>
             <ul>
-                <li><a href="{{ route('inicio2') }}">Inicio</a></li>
-                <li><a href="{{ route('csi') }}">Conceptos - Sistemas de Información.</a></li>
-                <li><a href="{{ route('esi') }}">Evolución de los sistemas de información.</a></li>
-                <li><a href="{{ route('ccs') }}">Conceptos de Cliente y Servidor.</a></li>
-                <li><a href="{{ route('sccd') }}">Sistemas de computadoras centrales y dedicadas.</a></li>
-                <li><a href="{{ route('scltr') }}">Sistemas de conexión libre y a través de redes.</a></li>
-                <li><a href="{{ route('sacs') }}">Sistemas con arquitectura Cliente/Servidor.</a></li>
-                <li><a href="{{ route('pcr') }}">Protocolos de comunicación en red.</a></li>
-                <li><a href="{{ route('csira') }}">Clasificación de los sistemas de información respecto a su
-                        arquitectura.</a></li>
-                <li><a href="{{ route('pdcacs') }}">Proceso de diagramación de componentes de la arquitectura cliente
-                        servidor.</a></li>
+                <li><a href="{{ route('inicio3') }}">Inicio</a></li>
+                <li><a href="{{ route('2tema1') }}">Conceptos de presentación distribuida</a></li>
+                <li><a href="{{ route('2tema2') }}">Conceptos de lógica de acceso, presentación y negocio a datos</a></li>
+                <li><a href="{{ route('ccs') }}">Diseño de logica de acceso a datos</a></li>
+                <li><a href="{{ route('sccd') }}">Proceso de desarrollo de logica de acceso a datos</a></li>
                 <li><a href="#footer">Contactanos.</a></li>
             </ul>
         </nav>
@@ -64,7 +57,7 @@
         <div id="main">
             <div class="inner">
                 <header>
-                    <h1 id="">UNIDAD 1</h1>
+                    <h1 id="">ESTRATEGIAS DE REPARTO DE COMPLEJIDAD</h1>
                     <p>Quinto cuatrimestre:</p>
                 </header>
                 <section class="tiles">
@@ -72,10 +65,11 @@
                         <span class="image">
                             <img src="images/pic01.jpg" alt="" />
                         </span>
-                        <a href="{{ route('index') }}">
-                            <h2>Introducción a la arquitectura Cliente/Servidor.</h2>
+                        <a href="{{ route('2tema1') }}">
+                            <h2>conceptos de presentación
+                                distribuida</h2>
                             <div class="content">
-                                <p id="parrafo"></p>
+                                <p id="parrafo">Conceptos.</p>
                             </div>
                         </a>
                     </article>
@@ -83,14 +77,37 @@
                         <span class="image">
                             <img src="images/pic02.jpg" alt="" />
                         </span>
-                        <a href="{{ route('index2') }}">
-                            <h2>Componentes y características del Cliente/Servidor.</h2>
+                        <a href="{{ route('2tema2') }}">
+                            <h2> conceptos de lógica de acceso,
+                                presentación y negocio a datos</h2>
                             <div class="content">
                                 <p id="parrafo"></p>
                             </div>
                         </a>
                     </article>
-
+                    <article class="style4">
+                        <span class="image">
+                            <img src="images/pic02.jpg" alt="" />
+                        </span>
+                        <a href="">
+                            <h2>Explicar el proceso de planificación en tres niveles.</h2>
+                            <div class="content">
+                                <p id="parrafo">Proximamente.</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="style6">
+                        <span class="image">
+                            <img src="images/pic02.jpg" alt="" />
+                        </span>
+                        <a href="">
+                            <h2>proceso de desarrollo de logica de
+                                acceso a datos</h2>
+                            <div class="content">
+                                <p id="parrafo">Proximamente.</p>
+                            </div>
+                        </a>
+                    </article>
                 </section>
             </div>
         </div>

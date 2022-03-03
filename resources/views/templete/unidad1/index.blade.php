@@ -25,7 +25,7 @@
             <div class="inner">
 
                 <!-- Logo -->
-                <a href="{{ route('inicio') }}" class="logo">
+                <a href="{{ route('inicio2') }}" class="logo">
                     <span class="symbol"><img src="images/logo.png" alt="" /></span><span
                         class="title">Blog DRO</span>
                 </a>
@@ -62,9 +62,8 @@
         <div id="main">
             <div class="inner">
                 <header>
-                    <h1>Cliente/Servidor<br />
-                        UNIDAD 1:</h1>
-                    <p>Introducción a la arquitectura Cliente/Servidor.</p>
+                    <h1>Introducción a la arquitectura Cliente/Servidor.</h1>
+                    <p>Cliente/Servidor.</p>
                 </header>
                 <section class="tiles">
                     <article class="style1">

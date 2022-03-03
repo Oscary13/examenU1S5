@@ -44,7 +44,7 @@
         <nav id="menu">
             <h2>Menu</h2>
             <ul>
-                <li><a href="{{ route('inicio2') }}">Inicio</a></li>
+                <li><a href="{{ route('inicio') }}">Inicio</a></li>
                 <li><a href="{{ route('csi') }}">Conceptos - Sistemas de Información.</a></li>
                 <li><a href="{{ route('esi') }}">Evolución de los sistemas de información.</a></li>
                 <li><a href="{{ route('ccs') }}">Conceptos de Cliente y Servidor.</a></li>
@@ -64,7 +64,8 @@
         <div id="main">
             <div class="inner">
                 <header>
-                    <h1 id="">UNIDAD 1</h1>
+                    <h1 id="t">Fundamentos de la arquitectura<br />
+                        Cliente/Servidor.</h1>
                     <p>Quinto cuatrimestre:</p>
                 </header>
                 <section class="tiles">
@@ -72,10 +73,10 @@
                         <span class="image">
                             <img src="images/pic01.jpg" alt="" />
                         </span>
-                        <a href="{{ route('index') }}">
-                            <h2>Introducción a la arquitectura Cliente/Servidor.</h2>
+                        <a href="{{ route('inicio') }}">
+                            <h2>unidad 1</h2>
                             <div class="content">
-                                <p id="parrafo"></p>
+                                <p id="parrafo">Introducción a la arquitectura Cliente/Servidor. <br> Componentes y características del Cliente/Servidor.</p>
                             </div>
                         </a>
                     </article>
@@ -83,10 +84,21 @@
                         <span class="image">
                             <img src="images/pic02.jpg" alt="" />
                         </span>
-                        <a href="{{ route('index2') }}">
-                            <h2>Componentes y características del Cliente/Servidor.</h2>
+                        <a href="{{ route('inicio3') }}">
+                            <h2>unidad 2</h2>
                             <div class="content">
                                 <p id="parrafo"></p>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="style4">
+                        <span class="image">
+                            <img src="images/pic02.jpg" alt="" />
+                        </span>
+                        <a href="">
+                            <h2>unidad 3</h2>
+                            <div class="content">
+                                <p id="parrafo">Proximamente.</p>
                             </div>
                         </a>
                     </article>

@@ -44,18 +44,11 @@
         <nav id="menu">
             <h2>Menu</h2>
             <ul>
-                <li><a href="{{ route('inicio2') }}">Inicio</a></li>
-                <li><a href="{{ route('csi') }}">Conceptos - Sistemas de Información.</a></li>
-                <li><a href="{{ route('esi') }}">Evolución de los sistemas de información.</a></li>
-                <li><a href="{{ route('ccs') }}">Conceptos de Cliente y Servidor.</a></li>
-                <li><a href="{{ route('sccd') }}">Sistemas de computadoras centrales y dedicadas.</a></li>
-                <li><a href="{{ route('scltr') }}">Sistemas de conexión libre y a través de redes.</a></li>
-                <li><a href="{{ route('sacs') }}">Sistemas con arquitectura Cliente/Servidor.</a></li>
-                <li><a href="{{ route('pcr') }}">Protocolos de comunicación en red.</a></li>
-                <li><a href="{{ route('csira') }}">Clasificación de los sistemas de información respecto a su
-                        arquitectura.</a></li>
-                <li><a href="{{ route('pdcacs') }}">Proceso de diagramación de componentes de la arquitectura cliente
-                        servidor.</a></li>
+                <li><a href="{{ route('estrategias') }}">Inicio</a></li>
+                <li><a href="{{ route('2tema1') }}">Conceptos de presentación distribuida</a></li>
+                <li><a href="{{ route('2tema2') }}">Conceptos de lógica de acceso, presentación y negocio a datos</a></li>
+                <li><a href="{{ route('ccs') }}">Diseño de logica de acceso a datos</a></li>
+                <li><a href="{{ route('sccd') }}">Proceso de desarrollo de logica de acceso a datos</a></li>
                 <li><a href="#footer">Contactanos.</a></li>
             </ul>
         </nav>
@@ -63,35 +56,14 @@
         <!-- Main -->
         <div id="main">
             <div class="inner">
-                <header>
-                    <h1 id="">UNIDAD 1</h1>
-                    <p>Quinto cuatrimestre:</p>
-                </header>
-                <section class="tiles">
-                    <article class="style1">
-                        <span class="image">
-                            <img src="images/pic01.jpg" alt="" />
-                        </span>
-                        <a href="{{ route('index') }}">
-                            <h2>Introducción a la arquitectura Cliente/Servidor.</h2>
-                            <div class="content">
-                                <p id="parrafo"></p>
-                            </div>
-                        </a>
-                    </article>
-                    <article class="style2">
-                        <span class="image">
-                            <img src="images/pic02.jpg" alt="" />
-                        </span>
-                        <a href="{{ route('index2') }}">
-                            <h2>Componentes y características del Cliente/Servidor.</h2>
-                            <div class="content">
-                                <p id="parrafo"></p>
-                            </div>
-                        </a>
-                    </article>
-
-                </section>
+                @yield('titulo')
+                @yield('imagen1')
+                @yield('subtitulo1')
+                @yield('parrafoSub1') 
+                @yield('imagen2')
+                @yield('parrafo2')
+                @yield('imagen3')
+                
             </div>
         </div>
 
@@ -120,17 +92,14 @@
                 <section>
                     <h2>Seguir</h2>
                     <ul class="icons">
-                        <li><a href="https://twitter.com/OBB13_?t=7nIQzOsfhmixthlDa6Ling&s=09" target="_BLANK"
-                                class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a>
-                        </li>
-                        <li><a href="https://www.facebook.com/oscary.basurto.9/" target="_BLANK"
-                                class="icon brands style2 fa-facebook-f"><span
+                        <li><a href="https://twitter.com/OBB13_?t=7nIQzOsfhmixthlDa6Ling&s=09" target="_BLANK"  class="icon brands style2 fa-twitter"><span
+                                    class="label">Twitter</span></a></li>
+                        <li><a href="https://www.facebook.com/oscary.basurto.9/" target="_BLANK"  class="icon brands style2 fa-facebook-f"><span
                                     class="label">Facebook</span></a></li>
-                        <li><a href="https://www.instagram.com/0bb_13/?hl=es" target="_BLANK"
-                                class="icon brands style2 fa-instagram"><span
+                        <li><a href="https://www.instagram.com/0bb_13/?hl=es" target="_BLANK"  class="icon brands style2 fa-instagram"><span
                                     class="label">Instagram</span></a></li>
-                        <li><a href="https://github.com/Oscary13" target="_BLANK"
-                                class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="https://github.com/Oscary13" target="_BLANK"  class="icon brands style2 fa-github"><span
+                                    class="label">GitHub</span></a></li>
                     </ul>
                 </section>
                 <ul class="copyright">
