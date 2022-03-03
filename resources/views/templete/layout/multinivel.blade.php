@@ -48,7 +48,7 @@
                 <li><a href="{{ route('3tema1') }}">Concepto de nivel vinculado a programación web.</a></li>
                 <li><a href="{{ route('3tema2') }}">Proceso de planificación en dos niveles.</a></li>
                 <li><a href="{{ route('3tema3') }}">Proceso de planificación en tres niveles.</a></li>
-                <li><a href="">Proceso de planificación multiniveles.</a></li>
+                <li><a href="{{ route('3tema4') }}">Proceso de planificación multiniveles.</a></li>
                 <li><a href="{{ route('3tema5') }}">Problemas de actualización y mantenimiento de aplicaciones multinivel.</a></li>
                 <li><a href="#footer">Contactanos.</a></li>
             </ul>
@@ -64,7 +64,7 @@
                     <p>Quinto cuatrimestre:</p>
                 </header>
                 <section class="tiles">
-                    <article class="style1">
+                    <article class="style2">
                         <span class="image">
                             <img src="images/pic01.jpg" alt="" />
                         </span>
@@ -76,7 +76,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="style2">
+                    <article class="style3">
                         <span class="image">
                             <img src="images/pic02.jpg" alt="" />
                         </span>
@@ -88,7 +88,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="style4">
+                    <article class="style1">
                         <span class="image">
                             <img src="images/pic02.jpg" alt="" />
                         </span>
@@ -99,11 +99,11 @@
                             </div>
                         </a>
                     </article>
-                    <article class="style6">
+                    <article class="style5">
                         <span class="image">
                             <img src="images/pic02.jpg" alt="" />
                         </span>
-                        <a href="">
+                        <a href="{{ route('3tema4') }}">
                             <h2> proceso de planificación
                                 multiniveles.</h2>
                             <div class="content">

@@ -80,14 +80,18 @@
                             </div>
                         </a>
                     </article>
-                    <article class="style2">
+                    <article class="style5">
                         <span class="image">
                             <img src="images/pic02.jpg" alt="" />
                         </span>
                         <a href="{{ route('inicio3') }}">
                             <h2>unidad 2</h2>
                             <div class="content">
-                                <p id="parrafo"></p>
+                                <p id="parrafo">Estrategias de reparto de complejidad <br>
+                                    Modelos Multinivel <br>
+                                    Modelo Vista Controlador <br>
+                                    Sockets <br>
+                                </p>
                             </div>
                         </a>
                     </article>

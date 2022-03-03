@@ -47,8 +47,8 @@
                 <li><a href="{{ route('inicio3') }}">Inicio</a></li>
                 <li><a href="{{ route('2tema1') }}">Conceptos de presentación distribuida</a></li>
                 <li><a href="{{ route('2tema2') }}">Conceptos de lógica de acceso, presentación y negocio a datos</a></li>
-                <li><a href="{{ route('ccs') }}">Diseño de logica de acceso a datos</a></li>
-                <li><a href="{{ route('sccd') }}">Proceso de desarrollo de logica de acceso a datos</a></li>
+                <li><a href="{{ route('2tema3') }}">Diseño de logica de acceso a datos</a></li>
+                <li><a href="{{ route('2tema4') }}">Proceso de desarrollo de logica de acceso a datos</a></li>
                 <li><a href="#footer">Contactanos.</a></li>
             </ul>
         </nav>
@@ -79,7 +79,7 @@
                         </span>
                         <a href="{{ route('2tema2') }}">
                             <h2> conceptos de lógica de acceso,
-                                presentación y negocio a datos</h2>
+                                presentación y negocio a datos.</h2>
                             <div class="content">
                                 <p id="parrafo"></p>
                             </div>
@@ -89,10 +89,10 @@
                         <span class="image">
                             <img src="images/pic02.jpg" alt="" />
                         </span>
-                        <a href="">
+                        <a href="{{ route('2tema3') }}">
                             <h2>Explicar el proceso de planificación en tres niveles.</h2>
                             <div class="content">
-                                <p id="parrafo">Proximamente.</p>
+                                <p id="parrafo"></p>
                             </div>
                         </a>
                     </article>
@@ -100,11 +100,11 @@
                         <span class="image">
                             <img src="images/pic02.jpg" alt="" />
                         </span>
-                        <a href="">
+                        <a href="{{ route('2tema4') }}">
                             <h2>proceso de desarrollo de logica de
                                 acceso a datos</h2>
                             <div class="content">
-                                <p id="parrafo">Proximamente.</p>
+                                <p id="parrafo"></p>
                             </div>
                         </a>
                     </article>

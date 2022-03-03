@@ -26,7 +26,7 @@
 
 
     </p>
-    <span class="image main"><img src="http://isa.uniovi.es/domotica/Temas/T6/T6-ClienteServidor_archivos/image010.jpg"
+    <span class="image main"><img src="https://image.slidesharecdn.com/unidad3-seguridadlgica-111122064312-phpapp02/95/unidad-3-seguridad-lgica-6-728.jpg?cb=1321944456"
             alt="" /></span>
     <p>
         Es más eficiente que los usuarios sean identificados y autenticados sólo una vez, pudiendo a partir de ahí acceder a

@@ -127,6 +127,13 @@ Route::get('/2tema2', function () {
     return view('templete.estrategias.tema2');
 })->name('2tema2');
 
+Route::get('/2tema3', function () {
+    return view('templete.estrategias.tema3');
+})->name('2tema3');
+
+Route::get('/2tema4', function () {
+    return view('templete.estrategias.tema4');
+})->name('2tema4');
 
 
 
@@ -146,7 +153,9 @@ Route::get('/3tema3', function () {
     return view('templete.multinivel.tema3');
 })->name('3tema3');
 
-
+Route::get('/3tema4', function () {
+    return view('templete.multinivel.tema4');
+})->name('3tema4');
 
 Route::get('/3tema5', function () {
     return view('templete.multinivel.tema5');

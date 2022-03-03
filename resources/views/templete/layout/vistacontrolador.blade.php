@@ -63,7 +63,7 @@
                     <p>Quinto cuatrimestre:</p>
                 </header>
                 <section class="tiles">
-                    <article class="style1">
+                    <article class="style3">
                         <span class="image">
                             <img src="images/pic01.jpg" alt="" />
                         </span>
@@ -75,7 +75,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="style2">
+                    <article class="style1">
                         <span class="image">
                             <img src="images/pic02.jpg" alt="" />
                         </span>
@@ -86,7 +86,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="style4">
+                    <article class="style3">
                         <span class="image">
                             <img src="images/pic02.jpg" alt="" />
                         </span>
@@ -97,7 +97,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="style6">
+                    <article class="style4">
                         <span class="image">
                             <img src="images/pic02.jpg" alt="" />
                         </span>

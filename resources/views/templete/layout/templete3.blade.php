@@ -47,8 +47,8 @@
                 <li><a href="{{ route('estrategias') }}">Inicio</a></li>
                 <li><a href="{{ route('2tema1') }}">Conceptos de presentación distribuida</a></li>
                 <li><a href="{{ route('2tema2') }}">Conceptos de lógica de acceso, presentación y negocio a datos</a></li>
-                <li><a href="{{ route('ccs') }}">Diseño de logica de acceso a datos</a></li>
-                <li><a href="{{ route('sccd') }}">Proceso de desarrollo de logica de acceso a datos</a></li>
+                <li><a href="{{ route('2tema3') }}">Diseño de logica de acceso a datos</a></li>
+                <li><a href="{{ route('2tema4') }}">Proceso de desarrollo de logica de acceso a datos</a></li>
                 <li><a href="#footer">Contactanos.</a></li>
             </ul>
         </nav>
