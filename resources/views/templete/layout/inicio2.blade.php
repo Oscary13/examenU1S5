@@ -44,18 +44,9 @@
         <nav id="menu">
             <h2>Menu</h2>
             <ul>
-                <li><a href="{{ route('inicio') }}">Inicio</a></li>
-                <li><a href="{{ route('csi') }}">Conceptos - Sistemas de Información.</a></li>
-                <li><a href="{{ route('esi') }}">Evolución de los sistemas de información.</a></li>
-                <li><a href="{{ route('ccs') }}">Conceptos de Cliente y Servidor.</a></li>
-                <li><a href="{{ route('sccd') }}">Sistemas de computadoras centrales y dedicadas.</a></li>
-                <li><a href="{{ route('scltr') }}">Sistemas de conexión libre y a través de redes.</a></li>
-                <li><a href="{{ route('sacs') }}">Sistemas con arquitectura Cliente/Servidor.</a></li>
-                <li><a href="{{ route('pcr') }}">Protocolos de comunicación en red.</a></li>
-                <li><a href="{{ route('csira') }}">Clasificación de los sistemas de información respecto a su
-                        arquitectura.</a></li>
-                <li><a href="{{ route('pdcacs') }}">Proceso de diagramación de componentes de la arquitectura cliente
-                        servidor.</a></li>
+                <li><a href="{{ route('inicio') }}">UNIDAD 1</a></li>
+                <li><a href="{{ route('inicio3') }}">UNIDAD 2</a></li>
+                <li><a href="">UNIDAD 3</a></li>
                 <li><a href="#footer">Contactanos.</a></li>
             </ul>
         </nav>
