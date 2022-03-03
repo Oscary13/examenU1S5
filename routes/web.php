@@ -151,3 +151,50 @@ Route::get('/3tema3', function () {
 Route::get('/3tema5', function () {
     return view('templete.multinivel.tema5');
 })->name('3tema5');
+
+
+
+
+
+Route::get('/vistacontrolador', function () {
+    return view('templete.vistacontrolador');
+})->name('vistacontrolador');
+
+Route::get('/4tema1', function () {
+    return view('templete.vistacontrolador.tema1');
+})->name('4tema1');
+
+Route::get('/4tema2', function () {
+    return view('templete.vistacontrolador.tema2');
+})->name('4tema2');
+
+Route::get('/4tema3', function () {
+    return view('templete.vistacontrolador.tema3');
+})->name('4tema3');
+
+Route::get('/4tema4', function () {
+    return view('templete.vistacontrolador.tema4');
+})->name('4tema4');
+
+
+
+Route::get('/sockets', function () {
+    return view('templete.sockets');
+})->name('sockets');
+
+Route::get('/5tema1', function () {
+    return view('templete.sockets.tema1');
+})->name('5tema1');
+
+Route::get('/5tema2', function () {
+    return view('templete.sockets.tema2');
+})->name('5tema2');
+
+Route::get('/5tema3', function () {
+    return view('templete.sockets.tema3');
+})->name('5tema3');
+
+
+Route::get('/5tema4', function () {
+    return view('templete.sockets.tema4');
+})->name('5tema4');
