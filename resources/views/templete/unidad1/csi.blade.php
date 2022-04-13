@@ -30,6 +30,7 @@
 @endsection
 @section('imagen2')
     <span class="image main"><img src="images/100.png" alt="" /></span>
+    
 @endsection
 @section('parrafo2')
     <p> • <strong>Los sistemas de control de calidad:</strong> En los que se pide una retroalimentación al cliente y se
