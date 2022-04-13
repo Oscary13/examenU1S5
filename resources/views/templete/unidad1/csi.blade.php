@@ -21,10 +21,10 @@
         procesados fácil y rápidamente.
         Todo sistema de información se compone de una serie de recursos interconectados y en interacción,
         dispuestos del modo más conveniente en base al propósito informativo trazado, como puede ser recabar
-        información personal, procesar estadísticas, organizar archivos, etc. 
+        información personal, procesar estadísticas, organizar archivos, etc.
     </p>
     <p>
-        
+
         <strong>Estos recursos pueden ser:</strong>
     </p>
 @endsection
@@ -36,7 +36,7 @@
         evalúan los resultados estadísticamente para elaborar resultados interpretables por la gerencia.
     </p>
     <p>
-        • <strong>Las bases de datos de una biblioteca: </strong> En donde está contenido el grueso volumen de documentos
+        • <strong>Las bases de datos de una biblioteca: </strong> Es en donde está contenido el grueso volumen de documentos
         (libros, revistas, tesis, etc.) de la biblioteca, en función de ubicar y recuperar cada uno lo más rápida y
         precisamente posible.
     </p>
